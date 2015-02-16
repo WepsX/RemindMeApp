@@ -1,1 +1,1 @@
-var RemindMe = angular.module('RemindMe', ['ngAnimate', 'ngRoute']);
+var RemindMe = angular.module('RemindMe', ['ngAnimate', 'ngRoute', 'ngMaterial']);
