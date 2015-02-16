@@ -1,0 +1,12 @@
+<section id="sceneMenu" data-name="menu" ng-controller="MenuController as menu">
+	<div class="container menu">
+		<ul>
+			<li ng-repeat="content in menu.content" ng-click="menu.click($index)" ng-class="{selected: $index == menu.selected}">
+      			<div class="content {{content.name}}">
+      				<div class="img {{ content.class }}"></div>
+      				<div class="text">{{ content.text }}</div>
+      			</div>
+    		</li>
+		</ul>
+	</div>
+</section>
