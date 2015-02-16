@@ -1,3 +1,19 @@
-<section>
-	<div>Login</div>
+﻿<section id="loginView">
+	<div ng-controller="LoginController" layout="column">
+		<md-content class="md-padding">
+			<form name="userForm">
+				<md-input-container flex>
+					<label>Usuario</label>
+					<input ng-model="user.firstName">
+				</md-input-container>
+				<md-input-container flex>
+					<label>Contraseña</label>
+					<input ng-model="theMax">
+				</md-input-container>
+			</form>
+			<section layout="row" layout-sm="column" layout-align="center center">
+				<md-button class="md-raised md-primary">Primary</md-button>
+			</section>
+		</md-content>
+	</div>
 </section>
