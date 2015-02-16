@@ -5,11 +5,11 @@ RemindMe.config(['$routeProvider',
         $routeProvider.
             when('/login', {
                 templateUrl: 'app/components/login/loginView.html',
-                controller: 'LoginController'
+                controller: 'LoginController',
             }).
             when('/home', {
                 templateUrl: 'app/components/home/homeView.html',
-                controller: 'HomeController'
+                controller: 'HomeController',
             }).
             when('/calendar', {
                 templateUrl: 'app/components/calendar/calendarView.html',
